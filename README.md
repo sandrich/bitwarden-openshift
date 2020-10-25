@@ -7,14 +7,14 @@ This has been forked from [cdwv/bitwarden-k8s](https://github.com/cdwv/bitwarden
 
 ```console
 $ helm repo add bitwarden https://sandrich.github.io/bitwarden-openshift
-$ helm install bitwarden/bitwarden-k8s
+$ helm install bitwarden/bitwarden-openshift
 ```
 
 OR
 
 ```console
 $ git clone https://github.com/sandrich/bitwarden-openshift
-$ cd bitwarden-k8s
+$ cd bitwarden-openshift
 $ helm install ./chart/bitwarden-openshift
 ```
 
